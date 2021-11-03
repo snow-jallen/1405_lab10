@@ -12,7 +12,7 @@ namespace Lab10
             /* Write at least 3 tests for your IsPrime method. Be sure to use AAA and red, green, factor strategies
              *  One for a negative number
              *  another for a valid number
-             *  and another for a number larger than 10000.
+             *  and another for a number larger than 10,000.
              */
 
             //Write an IsPrime method that takes in a number and returns true if its prime, false if its not prime
