@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="nunit" Version="3.12.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <ProjectReference Include="..\Lab10\Lab10.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lab10\Lab10.csproj" />
+    <PackageReference Include="microsoft.net.test.sdk" Version="17.0.0" />
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="nunit3testadapter" Version="4.0.0" />
   </ItemGroup>
 
 </Project>
